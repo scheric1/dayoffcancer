@@ -51,10 +51,11 @@
 						</v-col>
 						<v-col cols="12" class="py-3">
 							<p class="title font-weight-regular">
-								In September 2019 I was diagnosed with a rare cancer <strong>Carcinoma of Unknown (CUP)</strong>. As of
-								today I have undergone <strong class="orange--text px-2">35 treatments</strong> of radiation and
+								In September 2019 I was diagnosed with a rare cancer <strong>Carcinoma of Unknown Primary (CUP)</strong>. As
+								of today I have undergone <strong class="orange--text px-2">35 treatments</strong> of radiation and
 								<strong class="orange--text px-2">7 treatments</strong> of chemotherapy but still have not beat it. I still
-								have a tumor in my neck which will need to be surgically removed in the near future.
+								have a tumor in my neck which I am still dealing with. My First CT scan after treatment showed a 1.2 cm mass
+								which will need to be surgically removed in the near future.
 							</p>
 						</v-col>
 						<v-col cols="12" md="6">
@@ -107,8 +108,8 @@
 						</v-col>
 						<v-col cols="12">
 							<p class="headline mb-6 font-weight-bold">
-								Even a small amount could make a difference for someone going through Cancer. Help us shine a little light
-								even if it's just for one day.
+								Even a small amount could make a difference for someone going through Cancer. Please help us shine a little
+								light even if it's just for one day.
 							</p>
 						</v-col>
 						<v-col cols="12">
