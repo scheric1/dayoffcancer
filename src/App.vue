@@ -3,7 +3,7 @@
 		<v-app-bar app color="white">
 			<div class="d-flex align-center">
 				<v-img src="/images/gofundme.png" contain height="35px" class="d-none d-sm-flex"></v-img>
-				<span class="title mt-1">A Day Off Cancer</span>
+				<span class="title mt-1">A Day Off from Cancer</span>
 			</div>
 
 			<v-spacer></v-spacer>
@@ -16,7 +16,7 @@
 				:large="$vuetify.breakpoint.mdAndUp"
 			>
 				<span class="mr-2">Donate</span>
-				<v-icon>mdi-open-in-new</v-icon>
+				<!-- <v-icon>mdi-open-in-new</v-icon> -->
 			</v-btn>
 		</v-app-bar>
 
