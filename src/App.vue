@@ -43,7 +43,7 @@ h1.display-3 {
 
 @media screen and (max-width: 547px) {
 	.v-application .display-3 {
-		font-size: 20px !important;
+		font-size: 2.5rem !important;
 	}
 }
 </style>
