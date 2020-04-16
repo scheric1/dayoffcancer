@@ -3,7 +3,7 @@
 		<v-app-bar app color="white">
 			<div class="d-flex align-center">
 				<v-img src="/images/gofundme.png" contain height="35px" class="d-none d-sm-flex"></v-img>
-				<span class="title mt-1">A Day Off from Cancer</span>
+				<span class="title mt-1">A Day Off From Cancer</span>
 			</div>
 
 			<v-spacer></v-spacer>
