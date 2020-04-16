@@ -26,6 +26,7 @@
 		<v-footer absolute class="font-weight-medium grey lighten-2">
 			<v-col class="text-center" cols="12">
 				If you know a person or family in need with cancer please contact us.
+				<br v-if="$vuetify.breakpoint.smAndDown" />
 				<v-btn color="orange" class="mx-3" dark href="mailto:adayofffromcancer@gmail.com">Message Us</v-btn>
 			</v-col>
 		</v-footer>
