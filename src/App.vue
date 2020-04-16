@@ -15,7 +15,7 @@
 				dark
 				:large="$vuetify.breakpoint.mdAndUp"
 			>
-				<span class="mr-2">Donate</span>
+				<span>Donate</span>
 				<!-- <v-icon>mdi-open-in-new</v-icon> -->
 			</v-btn>
 		</v-app-bar>
