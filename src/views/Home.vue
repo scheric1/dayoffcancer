@@ -120,7 +120,7 @@
 								If you are unable to donate, please consider sharing our GoFundMe
 							</p>
 						</v-col>
-						<v-col cols="12">
+						<v-col cols="12" class="mb-12">
 							<v-row>
 								<v-col cols="4" sm="2" offset-sm="3">
 									<v-btn
