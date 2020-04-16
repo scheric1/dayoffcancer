@@ -2,12 +2,19 @@
 	<v-app>
 		<v-app-bar app color="white">
 			<div class="d-flex align-center">
-				<v-img src="/images/gofundme.png" contain height="35px"></v-img> <span class="title mt-1">A Day Off Cancer</span>
+				<v-img src="/images/gofundme.png" contain height="35px" class="d-none d-sm-flex"></v-img>
+				<span class="title mt-1">A Day Off Cancer</span>
 			</div>
 
 			<v-spacer></v-spacer>
 
-			<v-btn href="https://www.gofundme.com/f/wzkfb-a-day-off-from-cancer" target="_blank" color="#00B964" dark large>
+			<v-btn
+				href="https://www.gofundme.com/f/wzkfb-a-day-off-from-cancer"
+				target="_blank"
+				color="#00B964"
+				dark
+				:large="$vuetify.breakpoint.mdAndUp"
+			>
 				<span class="mr-2">Donate</span>
 				<v-icon>mdi-open-in-new</v-icon>
 			</v-btn>

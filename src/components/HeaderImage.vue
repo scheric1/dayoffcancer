@@ -5,7 +5,12 @@
 				<v-container class="fill-height" fluid>
 					<v-row justify="center" no-gutters>
 						<v-col cols="12" class="text-center">
-							<h1 class="display-3 white--text text-shadow font-weight-black">
+							<h1
+								:class="[
+									$vuetify.breakpoint.smAndDown ? 'display-2' : 'display-3',
+									'white--text text-shadow font-weight-black',
+								]"
+							>
 								Cancer may have started the fight...<br />
 								... but I will finish it
 							</h1>
