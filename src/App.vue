@@ -7,7 +7,7 @@
 
 			<v-spacer></v-spacer>
 
-			<v-btn href="https://www.gofundme.com/f/wzkfb-a-day-off-from-cancer" target="_blank" text>
+			<v-btn href="https://www.gofundme.com/f/wzkfb-a-day-off-from-cancer" target="_blank" color="#00B964" dark large>
 				<span class="mr-2">Donate</span>
 				<v-icon>mdi-open-in-new</v-icon>
 			</v-btn>
