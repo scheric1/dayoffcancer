@@ -1,60 +1,54 @@
 <template>
-  <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
+	<v-app>
+		<v-app-bar app color="white">
+			<div class="d-flex align-center">
+				<v-img src="/images/gofundme.png" contain height="35px"></v-img> <span class="title mt-1">A Day Off Cancer</span>
+			</div>
 
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
+			<v-spacer></v-spacer>
 
-      <v-spacer></v-spacer>
+			<v-btn href="https://www.gofundme.com/f/wzkfb-a-day-off-from-cancer" target="_blank" text>
+				<span class="mr-2">Donate</span>
+				<v-icon>mdi-open-in-new</v-icon>
+			</v-btn>
+		</v-app-bar>
 
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
-    </v-app-bar>
-
-    <v-content>
-      <HelloWorld/>
-    </v-content>
-  </v-app>
+		<v-content>
+			<router-view></router-view>
+		</v-content>
+	</v-app>
 </template>
 
+<style>
+h1.display-3 {
+	line-height: 80px !important;
+}
+.gofund {
+	width: 100%;
+	height: 200px;
+}
+.text-shadow {
+	text-shadow: 2px 2px 2px #000000;
+}
+.marker {
+	font-family: "Permanent Marker", cursive;
+}
+
+@media screen and (max-width: 547px) {
+	.v-application .display-3 {
+		font-size: 20px !important;
+	}
+}
+</style>
+
 <script>
-import HelloWorld from './components/HelloWorld';
-
 export default {
-  name: 'App',
+	name: "App",
 
-  components: {
-    HelloWorld,
-  },
+	components: {},
 
-  data: () => ({
-    //
-  }),
+	data: () => ({
+		//
+	}),
 };
 </script>
